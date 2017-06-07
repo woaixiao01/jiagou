@@ -34,7 +34,7 @@ public class HelloSer extends HttpServlet {
 		String currentTime = dateFormat.format(new Date());
 		request.setAttribute("currentTime", currentTime);
 		request.getRequestDispatcher("/WEB-INF/jsp/hello.jsp").forward(request,response);	
-		 
+		//测试
 		
 	}
 
